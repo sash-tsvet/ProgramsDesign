@@ -1,7 +1,7 @@
 /**
  * Created by user10 on 16.09.2016.
  */
-public class Pll {
+public class Pll implements Shape{
     private double a;
     private double b;
     private double c;

@@ -1,7 +1,7 @@
 /**
  * Created by user10 on 16.09.2016.
  */
-public class Cube {
+public class Cube implements Shape {
     private double b;
 
     public Cube(double b) {
@@ -9,6 +9,6 @@ public class Cube {
     }
 
     public double volume(){
-        return a*a*a;
+        return b*b*b;
     }
 }

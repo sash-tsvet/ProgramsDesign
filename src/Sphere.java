@@ -1,7 +1,7 @@
 /**
  * Created by user10 on 16.09.2016.
  */
-public class Sphere {
+public class Sphere implements Shape{
     private double radius;
 
     public Sphere(double radius) {
